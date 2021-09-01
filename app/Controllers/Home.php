@@ -86,6 +86,10 @@ class Home extends BaseController
 		return redirect()->to('/');
 		 
 	}
+	public function login()
+	{
+		echo 'success';
+	}
 
 
 
