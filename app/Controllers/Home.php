@@ -94,6 +94,13 @@ class Home extends BaseController
 	{
 		$session->destroy();
 	}
+	public function profile()
+	{
+		$rtrn = view('includes/header',$data);
+		$rtrn .= view('profile');
+		$rtrn .= view('includes/footer');
+		return $rtrn;
+	}
 
 
 
