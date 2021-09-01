@@ -90,6 +90,10 @@ class Home extends BaseController
 	{
 		echo 'success';
 	}
+	public function logout()
+	{
+		$session->destroy();
+	}
 
 
 
